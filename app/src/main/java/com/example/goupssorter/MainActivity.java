@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void loader(){
 
+         schecker = 0;
+         moves = 0;
+
+
         for (checker = 0; checker<23; checker++){
             real[checker] = new student();}
         for (checker = 0; checker<23; checker++){
@@ -228,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Reset(View v){
-
+        print1 = null;
         loader();
 
     }
